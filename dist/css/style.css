@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+a:focus {
+    outline: 0 solid;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/* Change the white to any color ;) */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+input:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.top-navbar {
+    margin-bottom: 50px;
+}
+
+.section-padding {
+    position: relative;
+}
+
+.section-bg {
+    background-image: url(../img/banner.jpg);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 60%;
+    background-size: cover;
+}
+
+.section-bg:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: '';
+    background-color: #31D5BE;
+    opacity: .8;
+}
+
+.contact-form {
+    padding-top: 69px;
+    padding-bottom: 55px;
+}
+
+.contact-form h2 {
+    color: #fff;
+    transform: rotate(270deg);
+    left: -150px;
+    position: absolute;
+    top: 270px;
+    letter-spacing: .3em;
+    font-size: 30px;
+    font-weight: 700;
+    font-family:sans-serif;
+    opacity: .5;
+   
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #fff;
+    margin-bottom: 17px;
+    color: #333;
+}
+
+.contact-form input:focus {
+    border: 1px solid #222;
+    transition: 1s;
+}
+.contact-form input[type=submit]{
+    width: auto;
+    padding: 15px 30px;
+    color: #31D5BE;
+    font-weight: 700;
+    background-color: #fff;
+    border-radius: 3px;
+    
+}
+.appinment-text{
+    padding-left: 100px;
+    background-color: #fff;
+    height: 100%;
+    padding-top: 70px;
+    
+}
+
+.appinment-text ul li{
+    list-style: none;
+    display: block;
+    margin: 10px 0;
+    font-family: serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: #222;
+}
+.spacing-text{
+    margin-top: 30px;
+}
+.appinment-text ul li i{
+    margin-right: 10px;
+    color: #31D5BE;
+}
+.appinment-text h3{
+    font-size: 25px;
+    font-family: serif;
+}
+.appinment-text input[type=submit]{
+    margin-top: 20px;
+    width: auto;
+    padding: 15px 30px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #31D5BE;
+    border-radius: 3px;
+    border: none;
+    
+}
